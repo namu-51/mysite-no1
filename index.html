@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/scrollreveal" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://unpkg.com/split-type" defer></script>
+  <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <h1 class="header__heading">Miyazawa</h1>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="#work">Work</a>
+        </li>
+        <li class="header__item">
+          <a href="#photo">Photo</a>
+        </li>
+        <li class="header__item">
+          <a href="#about">About</a>
+        </li>
+        <li class="header__item">
+          <a href="#achievements">Achievements</a>
+        </li>
+        <li class="header__item">
+          <a href="#access">Access</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- メインビジュアル -->
+  <div class="main-visual">
+    <div class="main-visual__count">
+      <span>3</span>
+      <span>2</span>
+      <span>1</span>
+    </div>
+    <div class="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
+    <div class="main-visual__bg"></div>
+    <div class="main-visual__text">
+      <div class="main-visual__inner">
+        <h2 class="main-visual__heading">
+          <span class="first">MIYAZAWA DENKI</span>
+          <span class="second">co.ltd</span>
+        </h2>
+      </div>
+    </div>
+    <div class="scroll">
+      <i class="fa-solid fa-chevron-down"></i>
+      <i class="fa-solid fa-chevron-down"></i>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </div>
+
+  <!-- ワーク -->
+  <section class="work" id="work">
+    <h2 class="section__heading">WORK</h2>
+    <h3 class="sub__heading">工事概要</h3>
+    <div class="work__inner">
+      <div class="work__content">
+        <h3 class="work__heading fade-in slide-up">
+          高低圧架線工事
+        </h3>
+        <div class="work__img fade-in slide-up">
+          <img src="img/30311257_s.jpg" alt="">
+        </div>
+        <p class="work__description fade-in slide-up">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus blanditiis rerum asperiores,
+          delectus consectetur! Impedit consectetur ipsam architecto totam soluta quibusdam officia. Reprehenderit autem
+          dolore a? Iusto ea a, maxime nam ut itaque cumque quaerat blanditiis officiis doloremque consectetur pariatur
+          laborum beatae eum accusamus facilis hic similique odit recusandae!
+        </p>
+      </div>
+      <div class="work__content">
+        <h3 class="work__heading fade-in slide-up">
+          高低圧設備工事
+        </h3>
+        <div class="work__img fade-in slide-up">
+          <img src="img/30312818_s.jpg" alt="">
+        </div>
+        <p class="work__description fade-in slide-up">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus blanditiis rerum asperiores,
+          delectus consectetur! Impedit consectetur ipsam architecto totam soluta quibusdam officia. Reprehenderit autem
+          dolore a? Iusto ea a, maxime nam ut itaque cumque quaerat blanditiis officiis doloremque consectetur pariatur
+          laborum beatae eum accusamus facilis hic similique odit recusandae!
+        </p>
+      </div>
+      <div class="work__content">
+        <h3 class="work__heading fade-in slide-up">
+          各種建柱工事
+        </h3>
+        <div class="work__img fade-in slide-up">
+          <img src="img/66b440305d674.jpg" alt="">
+        </div>
+        <p class="work__description fade-in slide-up">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus blanditiis rerum asperiores,
+          delectus consectetur! Impedit consectetur ipsam architecto totam soluta quibusdam officia. Reprehenderit autem
+          dolore a? Iusto ea a, maxime nam ut itaque cumque quaerat blanditiis officiis doloremque consectetur pariatur
+          laborum beatae eum accusamus facilis hic similique odit recusandae!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- フォトギャラリー -->
+  <section class="photo-gallery" id="photo">
+    <h2 class="section__heading">Photo-Gallery</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/24802291_s.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/25594332_s.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/30819398_s.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/23487758_s.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/456339_s.jpg" alt=""></div>
+      </div>
+      <div class="swiper-operation">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- アバウト -->
+  <section class="about" id="about">
+    <h2 class="section__heading">ABOUT</h2>
+    <h3 class="sub__heading">事業内容</h3>
+    <div class="about__inner">
+      <div class="about__img fade-in slide-right">
+        <img src="img/image-1.jpg" alt="">
+      </div>
+      <p class="about__description fade-in slide-left">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic doloribus expedita similique ipsa vero
+        praesentium, sint pariatur ad porro iusto atque sed quae repudiandae mollitia aut recusandae veniam est rerum
+        veritatis rem labore. Commodi nemo mollitia ea assumenda beatae quasi suscipit labore molestiae asperiores
+        temporibus fugiat fugit modi nam voluptatibus sit qui non cum sed facere, veritatis, possimus cupiditate?
+        Eveniet veritatis magni vero laboriosam animi aliquam libero, dicta repellat nihil ullam laudantium nobis
+        adipisci molestias aliquid unde dignissimos et dolor assumenda, vel impedit eius vitae quia quam. Mollitia
+        minima sunt dolorem nisi, necessitatibus laborum adipisci repellendus a vitae! Explicabo voluptatem inventore
+        non repudiandae deleniti pariatur impedit nemo ducimus reiciendis culpa corporis perspiciatis quisquam dicta
+        quam unde, commodi molestiae! Molestias exercitationem ipsum nulla obcaecati quisquam quas. Dolorum, maiores
+        quas? Aut eos autem necessitatibus accusantium labore dolorum veritatis quaerat sint quae? Tempora dolorum
+        magnam molestiae libero ab voluptatibus doloribus repellendus architecto vel, inventore eum laudantium excepturi
+        officiis molestias illo id. Illum maxime delectus necessitatibus quae est id magnam voluptate nulla fugit, ex
+        autem ratione cupiditate, quam odio esse aut facilis rerum fugiat dolor. Atque dolorem, exercitationem
+        architecto, nostrum sapiente, nesciunt assumenda commodi maiores magnam beatae totam hic fugit rem voluptate
+        laboriosam vel quasi. Consectetur excepturi cupiditate iste et mollitia quis unde repudiandae. Quas ullam ad
+        optio nam velit debitis id aliquid inventore perferendis accusamus? Nesciunt quis voluptate reiciendis corporis
+        modi praesentium dolorum blanditiis sit accusamus repudiandae vitae minus odit veritatis repellendus, vero et
+        qui necessitatibus aliquid quisquam? Aliquid dolor odio ullam.
+      </p>
+    </div>
+  </section>
+
+  <!-- エシーブメンツ -->
+  <section class="achievements" id="achievements">
+    <h2 class="section__heading">ACHIEVEMENTS</h2>
+    <h3 class="sub__heading">工事実績</h3>
+    <div class="achievements__contents">
+      <div class="achievements__cards">
+        <h4 class="achievements__cards-heading">
+          〇〇〇〇〇病院
+        </h4>
+        <div class="achievements__img">
+          <img src="img/30529208_s.jpg" alt="">
+        </div>
+        <p class="achievements__cards-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi quibusdam dolores eaque doloribus rem
+          vitae laborum quaerat nobis nisi quae saepe temporibus neque quo ex minima facilis inventore blanditiis iusto,
+          qui consequuntur odio, perferendis accusantium vel. Ex, nihil? Voluptates molestiae adipisci eos, eligendi,
+          distinctio odit error voluptatem, voluptatum reprehenderit quia quaerat magni harum debitis et libero soluta.
+          Magni porro id assumenda reiciendis atque, blanditiis, eos unde ipsam rerum quia exercitationem molestiae
+          magnam sint laboriosam nulla, aut enim quidem accusantium eveniet debitis modi labore quas sunt nihil! Est
+          sequi dolorum, incidunt et maxime amet voluptate nulla, nam saepe accusantium alias!
+        </p>
+        <p class="achievements__cards-date">
+          2012年 6月 施工
+        </p>
+      </div>
+      <div class="achievements__cards">
+        <h4 class="achievements__cards-heading">
+          〇〇〇〇〇工場
+        </h4>
+        <div class="achievements__img">
+          <img src="img/27723748_s.jpg" alt="">
+        </div>
+        <p class="achievements__cards-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi quibusdam dolores eaque doloribus rem
+          vitae laborum quaerat nobis nisi quae saepe temporibus neque quo ex minima facilis inventore blanditiis iusto,
+          qui consequuntur odio, perferendis accusantium vel. Ex, nihil? Voluptates molestiae adipisci eos, eligendi,
+          distinctio odit error voluptatem, voluptatum reprehenderit quia quaerat magni harum debitis et libero soluta.
+          Magni porro id assumenda reiciendis atque, blanditiis, eos unde ipsam rerum quia exercitationem molestiae
+          magnam sint laboriosam nulla, aut enim quidem accusantium eveniet debitis modi labore quas sunt nihil! Est
+          sequi dolorum, incidunt et maxime amet voluptate nulla, nam saepe accusantium alias!
+        </p>
+        <p class="achievements__cards-date">
+          2014年 2月 施工
+        </p>
+      </div>
+      <div class="achievements__cards">
+        <h4 class="achievements__cards-heading">
+          〇〇〇〇〇工場
+        </h4>
+        <div class="achievements__img">
+          <img src="img/30633652_s.jpg" alt="">
+        </div>
+        <p class="achievements__cards-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi quibusdam dolores eaque doloribus rem
+          vitae laborum quaerat nobis nisi quae saepe temporibus neque quo ex minima facilis inventore blanditiis iusto,
+          qui consequuntur odio, perferendis accusantium vel. Ex, nihil? Voluptates molestiae adipisci eos, eligendi,
+          distinctio odit error voluptatem, voluptatum reprehenderit quia quaerat magni harum debitis et libero soluta.
+          Magni porro id assumenda reiciendis atque, blanditiis, eos unde ipsam rerum quia exercitationem molestiae
+          magnam sint laboriosam nulla, aut enim quidem accusantium eveniet debitis modi labore quas sunt nihil! Est
+          sequi dolorum, incidunt et maxime amet voluptate nulla, nam saepe accusantium alias!
+        </p>
+        <p class="achievements__cards-date">
+          2016年 8月 施工
+        </p>
+      </div>
+      <div class="achievements__cards">
+        <h4 class="achievements__cards-heading">
+          〇〇〇〇〇マンション
+        </h4>
+        <div class="achievements__img">
+          <img src="img/30517128_s.jpg" alt="">
+        </div>
+        <p class="achievements__cards-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi quibusdam dolores eaque doloribus rem
+          vitae laborum quaerat nobis nisi quae saepe temporibus neque quo ex minima facilis inventore blanditiis iusto,
+          qui consequuntur odio, perferendis accusantium vel. Ex, nihil? Voluptates molestiae adipisci eos, eligendi,
+          distinctio odit error voluptatem, voluptatum reprehenderit quia quaerat magni harum debitis et libero soluta.
+          Magni porro id assumenda reiciendis atque, blanditiis, eos unde ipsam rerum quia exercitationem molestiae
+          magnam sint laboriosam nulla, aut enim quidem accusantium eveniet debitis modi labore quas sunt nihil! Est
+          sequi dolorum, incidunt et maxime amet voluptate nulla, nam saepe accusantium alias!
+        </p>
+        <p class="achievements__cards-date">
+          2019年 3月 施工
+        </p>
+      </div>
+      <div class="achievements__cards">
+        <h4 class="achievements__cards-heading">
+          〇〇〇〇〇ホテル
+        </h4>
+        <div class="achievements__img">
+          <img src="img/30750393_s.jpg" alt="">
+        </div>
+        <p class="achievements__cards-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi quibusdam dolores eaque doloribus rem
+          vitae laborum quaerat nobis nisi quae saepe temporibus neque quo ex minima facilis inventore blanditiis iusto,
+          qui consequuntur odio, perferendis accusantium vel. Ex, nihil? Voluptates molestiae adipisci eos, eligendi,
+          distinctio odit error voluptatem, voluptatum reprehenderit quia quaerat magni harum debitis et libero soluta.
+          Magni porro id assumenda reiciendis atque, blanditiis, eos unde ipsam rerum quia exercitationem molestiae
+          magnam sint laboriosam nulla, aut enim quidem accusantium eveniet debitis modi labore quas sunt nihil! Est
+          sequi dolorum, incidunt et maxime amet voluptate nulla, nam saepe accusantium alias!
+        </p>
+        <p class="achievements__cards-date">
+          2020年 2月 施工
+        </p>
+      </div>
+      <div class="achievements__cards">
+        <h4 class="achievements__cards-heading">
+          〇〇〇〇〇ビル
+        </h4>
+        <div class="achievements__img">
+          <img src="img/30801429_s.jpg" alt="">
+        </div>
+        <p class="achievements__cards-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quasi quibusdam dolores eaque doloribus rem
+          vitae laborum quaerat nobis nisi quae saepe temporibus neque quo ex minima facilis inventore blanditiis iusto,
+          qui consequuntur odio, perferendis accusantium vel. Ex, nihil? Voluptates molestiae adipisci eos, eligendi,
+          distinctio odit error voluptatem, voluptatum reprehenderit quia quaerat magni harum debitis et libero soluta.
+          Magni porro id assumenda reiciendis atque, blanditiis, eos unde ipsam rerum quia exercitationem molestiae
+          magnam sint laboriosam nulla, aut enim quidem accusantium eveniet debitis modi labore quas sunt nihil! Est
+          sequi dolorum, incidunt et maxime amet voluptate nulla, nam saepe accusantium alias!
+        </p>
+        <p class="achievements__cards-date">
+          2022年 10月 施工
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section class="access" id="access">
+    <h2 class="section__heading">ACCESS</h2>
+    <h3 class="sub__heading">所在</h3>
+    <div class="access__inner ">
+      <div class="map fade-in slide-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208970.77092737093!2d135.7649332000211!3d35.07752751185763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600174ece1b10c2d%3A0x8bccbbd569908646!2z5ruL6LOA55yM5aSn5rSl5biC!5e0!3m2!1sja!2sjp!4v1728029946779!5m2!1sja!2sjp"
+          width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="access__info fade-in slide-left">
+        <dl class="access__def">
+          <div class="access_def-inner">
+            <dt class="access__def-title">
+              ADDRESS
+            </dt>
+            <dd class="access__def-body">
+              滋賀県大津市
+            </dd>
+          </div>
+          <div class="access_def-inner">
+            <dt class="access__def-title">
+              TEL
+            </dt>
+            <dd class="access__def-body">
+              077-〇〇〇-〇〇〇〇
+            </dd>
+          </div>
+          <div class="access_def-inner">
+            <dt class="access__def-title">
+              E-MAIL
+            </dt>
+            <dd class="access__def-body">
+              〇〇〇〇@yahoo.co.jp
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p class="footer__logo">
+      Copyright © 2024 宮沢電気 Co.Ltd. All Rights Reserved.
+    </p>
+
+  </footer>
+
+  <a href="#" class="to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+</body>
+
+</html>
